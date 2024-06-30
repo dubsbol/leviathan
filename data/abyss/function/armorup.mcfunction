@@ -1,0 +1,1 @@
+effect give @s minecraft:resistance 30 100 true

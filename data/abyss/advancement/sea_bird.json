@@ -1,0 +1,174 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chainmail_boots"
+        },
+        "title": "Sea Bird",
+        "description": "Explore all Abyss biomes",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "parent": "abyss:root",
+    "criteria": {
+        "abyss:isolation": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:isolation"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:mire": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:mire"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:monolith": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:monolith"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:scald": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:scald"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:serenity": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:serenity"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:shore"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:snare": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:snare"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "abyss:solitude": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "abyss:solitude"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "abyss:isolation"
+        ],
+        [
+            "abyss:mire"
+        ],
+        [
+            "abyss:monolith"
+        ],
+        [
+            "abyss:scald"
+        ],
+        [
+            "abyss:serenity"
+        ],
+        [
+            "abyss:shore"
+        ],
+        [
+            "abyss:snare"
+        ],        
+        [
+            "abyss:solitude"
+        ]
+    ],
+    "rewards": {
+        "experience": 10000
+    },
+    "sends_telemetry_event": false
+}

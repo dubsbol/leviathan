@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "#crops",
+        "sweet_berry_bush",
+        "cave_vines",
+        "cave_vines_plant",
+        "brown_mushroom",
+        "red_mushroom",
+        "crimson_fungus",
+        "warped_fungus"
+    ]
+}

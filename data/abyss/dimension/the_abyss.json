@@ -1,0 +1,264 @@
+{
+    "type": "abyss:the_abyss",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "abyss:the_abyss",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                    {
+                        "biome": "abyss:isolation",
+                        "parameters": {
+                            "temperature": [
+                                -1.0,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                -0.8,
+                                -0.5
+                            ],
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": [
+                                -1.8,
+                                0.0
+                            ],
+                            "offset": 0.2
+                        }
+                    },
+                    {
+                        "biome": "abyss:isolation",
+                        "parameters": {
+                            "temperature": [
+                                -1.0,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                -0.8,
+                                -0.5
+                            ],
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": 1,
+                            "offset": 0.2
+                        }
+                    },
+                    {
+                        "biome": "abyss:solitude",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                -0.4,
+                                -0.1
+                            ],
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": [
+                                -1.8,
+                                0.0
+                            ],
+                            "offset": 0.15
+                        }
+                    },
+                    {
+                        "biome": "abyss:shore",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                0,
+                                1
+                            ],
+                            "erosion": [
+                                -1,
+                                -0.05
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth":  [
+                                -1.8,
+                                0.0
+                            ],
+                            "offset": 0
+                        }
+                    },               
+                    {
+                        "biome": "abyss:mire",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                0,
+                                1
+                            ],
+                            "erosion": [
+                                -0.01,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": [
+                                -1.8,
+                                0.0
+                            ],
+                            "offset": 0
+                        }   
+                    },
+                    {
+                        "biome": "abyss:monolith",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": -1,
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth":  [
+                                -1.9,
+                                0.0
+                            ],
+                            "offset": 0.0
+                        }
+                    },
+                    {
+                        "biome": "abyss:serenity",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": -1,
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth":  -2.0,
+                            "offset": 0.1
+                        }
+                    },
+                    {
+                        "biome": "abyss:snare",
+                        "parameters": {
+                            "temperature": [
+                                -1,
+                                0.5
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                0,
+                                1
+                            ],
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": 1.1,
+                            "offset": 0
+                        }
+                    }, 
+                    {
+                        "biome": "abyss:scald",
+                        "parameters": {
+                            "temperature": [
+                                0.5,
+                                1
+                            ],
+                            "humidity": [
+                                -1,
+                                1
+                            ],
+                            "continentalness": [
+                                0,
+                                1
+                            ],
+                            "erosion": [
+                                -1,
+                                1
+                            ],
+                            "weirdness": [
+                                -1,
+                                1
+                            ],
+                            "depth": 1.1,
+                            "offset": 0
+                        }
+                    }
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "grass_block",
+        "snow",
+        "snow_block",
+        "coarse_dirt",
+        "podzol",
+        "mud",
+        "moss_block",
+        "clay"
+    ]
+}

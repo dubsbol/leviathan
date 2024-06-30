@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dark_prismarine"
+        },
+        "title": "Abyss",
+        "description": "How deep does the rabbit hole go?",
+        "background": "minecraft:textures/block/deepslate.png",
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "abyss:the_abyss"
+            }
+        }
+    }
+}

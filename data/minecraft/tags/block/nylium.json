@@ -1,0 +1,10 @@
+{    
+    "replace": true,
+    "values": [
+        "crimson_nylium",
+        "warped_nylium",
+        "mud",
+        "moss_block",
+        "deepslate"
+    ]
+}

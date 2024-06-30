@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:heart_of_the_sea"
+        },
+        "title": "Serenity",
+        "description": "Ascend to Serenity. Escape the Abyss",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "parent": "abyss:root",
+    "criteria": {
+        "swap": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "abyss:abyss",
+                "to": "minecraft:overworld"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "swap"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

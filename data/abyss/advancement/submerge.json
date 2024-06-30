@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nautilus_shell",
+            "components": {"minecraft:enchantment_glint_override": true}
+        },
+        "title": "On my Shellphone",
+        "description": "Enter the abyss",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "abyss:shellphone",
+    "criteria": {
+        "minecraft": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "abyss:the_abyss"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nautilus_shell"
+        },
+        "title": "You Used to Call Me...",
+        "description": "Craft a shellphone in a smithing table [nautilus shell, amethyst shard, crying obsidian]",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "minecraft:story/root",
+    "criteria": {
+        "tea": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "abyss:shellphone"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tea"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

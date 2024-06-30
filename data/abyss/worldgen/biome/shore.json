@@ -1,0 +1,140 @@
+{
+    "temperature": 0.9,
+    "downfall": 1,
+    "has_precipitation": true,
+    "effects": {
+        "sky_color": 329031,
+        "fog_color": 1705262,
+        "water_color": 329051,
+        "water_fog_color": 40,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        }
+    },
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:drowned",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 4
+            }
+        ],
+        "underground_water_creature": [
+            {
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "water_ambient": [
+            {
+                "type": "minecraft:cod",
+                "weight": 15,
+                "minCount": 3,
+                "maxCount": 6
+            }],
+        "water_creature": [
+            {
+                "type": "minecraft:squid",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 4
+            },            
+            {
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ]
+    },
+    "spawn_costs": {
+        "minecraft:enderman": {
+            "energy_budget": 0.12,
+            "charge": 1
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [
+            "minecraft:fossil_upper",
+            "minecraft:fossil_lower"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_gravel",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_medium",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel",
+            "abyss:soul_soil_disk",
+            "abyss:ore_block_coal",
+            "abyss:ore_coal"
+        ],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:mushroom_island_vegetation",
+            "abyss:shroomroom",
+            "abyss:glowshroom",
+            "minecraft:brown_mushroom_taiga",
+            "minecraft:red_mushroom_taiga"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ]
+}

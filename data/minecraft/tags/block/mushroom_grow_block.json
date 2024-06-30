@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "mycelium",
+        "podzol",
+        "crimson_nylium",
+        "warped_nylium",
+        "mud",
+        "brown_mushroom_block",
+        "red_mushroom_block",
+        "mushroom_stem"
+    ]
+}
