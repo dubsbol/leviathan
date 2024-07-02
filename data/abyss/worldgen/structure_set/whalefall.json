@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "abyss:whalefall",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 14357619,
+        "spacing": 24,
+        "separation": 4
+    }
+}
