@@ -6,7 +6,8 @@
         "title": "Abyss",
         "description": "How deep does the rabbit hole go?",
         "background": "minecraft:textures/block/deepslate.png",
-        "hidden": false
+        "hidden": false,
+        "announce_to_chat": false
     },
     "criteria": {
         "minecraft": {

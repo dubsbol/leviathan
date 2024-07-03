@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skeleton_skull",
+            "count": 1
+        },
+        "title": {
+            "text": "Skeleton Crew"
+        },
+        "description": {
+            "text": "Board the ghost galleon"
+        }
+    },
+    "parent": "abyss:root",
+    "criteria": {
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "abyss:vessels"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fortress"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

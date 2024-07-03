@@ -9,7 +9,7 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "minecraft:story/root",
+    "parent": "abyss:submerge",
     "criteria": {
         "eat": {
             "trigger": "minecraft:using_item",

@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:trident",
+            "count": 1
+        },
+        "title": {
+            "text": "I am The Captain Now"
+        },
+        "description": {
+            "text": "Slay the Ship Captain on either type of vessel"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "abyss:crew",
+    "criteria": {
+        "fortress": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither_skeleton",
+                            "location": {
+                                "dimension": "abyss:the_abyss"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fortress"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
